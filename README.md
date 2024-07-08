@@ -24,6 +24,7 @@ mach1.trainer(network, xTrain, yTrain, lr = 0.001, epochs=1000)
 
 
 #You can call inference by using network(), where you can pass a List of floats as argument
+
 #Additional feature like evaluating across a data set are provided in the module
 
 ## app.py
