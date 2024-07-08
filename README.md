@@ -8,13 +8,20 @@ This notebook consists of an example of how to use the Mach1 Neural network as a
 
 ### Using Mach1 Module
 #importing the module
+
 import Mach1_NaiveNet as mach1 
 
+
 #initialising the network with layer sizes including input/output and hidden layers
+
 network = mach1.getNetwork(layerDims=[2, 8, 8, 8, 4, 1]) 
 
+
 #pass the network, data and hyperparameters as arguments to the trainer.
+
 mach1.trainer(network, xTrain, yTrain, lr = 0.001, epochs=1000) 
+
+
 
 #You can call inference by using network(), where you can pass a List of floats as argument
 #Additional feature like evaluating across a data set are provided in the module
