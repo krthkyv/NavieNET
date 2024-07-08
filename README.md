@@ -3,7 +3,7 @@ Naive Net Mach1 is a from-scratch, no-library implementation of a traditional ne
 
 ## Implementation.ipynb
 
-This notebook consists of an example of how to use the Mach1 Neural network as a module for whatever you need. The Mach1 module offers a very simple approach to implement and utilise neural networks. 
+This notebook consists of an example of how to use the Mach1 Neural network as a module for whatever you need. The Mach1 module offers a very simple approach to utilise neural networks. 
 #### Using just 3 lines of simple python code you can initialise and train a deep neural network.
 
 ### Using Mach1 Module
